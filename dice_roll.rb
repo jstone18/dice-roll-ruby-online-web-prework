@@ -5,3 +5,9 @@
 def roll
   rand(1..6)
 end
+
+#Same method using an arrays
+def roll
+  arr = [1, 2, 3, 4, 5, 6]
+  arr.sample
+end
