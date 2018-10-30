@@ -4,5 +4,5 @@
 
 def roll
   arr = [1, 2, 3, 4, 5, 6]
-  arr.fetch(1..6)
+  print arr.sample
 end
